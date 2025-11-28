@@ -1,0 +1,35 @@
+# Xcode
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+*.xcworkspace/*
+!*.xcworkspace/contents.xcworkspacedata
+*.xcuserdata
+*.xcscmblueprint
+
+# Build
+build/
+DerivedData/
+*.app
+*.dSYM
+.build/
+
+# Swift Package Manager
+.swiftpm/
+Package.resolved
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Release builds
+*.zip
+DesmosMenubarApp-*.zip
+
+# Logs
+*.log
+/tmp/
+
+# User defaults (for testing)
+defaults.plist
