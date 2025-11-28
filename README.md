@@ -19,7 +19,7 @@ A macOS menubar app that displays a mini Desmos graphing calculator in a popover
 
 ### Option 1: Download Pre-built Release
 
-1. Go to the [Releases](https://github.com/YOUR_USERNAME/YOUR_REPO/releases) page
+1. Go to the [Releases](https://github.com/Kristijonas-Adomaitis/Desmos_menubar/releases) page
 2. Download the latest `DesmosMenubarApp-YYYYMMDD.zip` file
 3. Extract the ZIP file
 4. Move `DesmosMenubarApp.app` to your Applications folder
@@ -30,8 +30,8 @@ A macOS menubar app that displays a mini Desmos graphing calculator in a popover
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
-   cd YOUR_REPO
+   git clone https://github.com/Kristijonas-Adomaitis/Desmos_menubar.git
+   cd Desmos_menubar
    ```
 
 2. Build the app:
@@ -71,8 +71,8 @@ A macOS menubar app that displays a mini Desmos graphing calculator in a popover
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
-cd YOUR_REPO
+git clone https://github.com/Kristijonas-Adomaitis/Desmos_menubar.git
+cd Desmos_menubar
 
 # Build the release
 ./build_release.sh

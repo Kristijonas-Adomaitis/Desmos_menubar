@@ -6,30 +6,82 @@
 !*.xcworkspace/contents.xcworkspacedata
 *.xcuserdata
 *.xcscmblueprint
+*.xcscheme
+*.xcuserstate
+*.xcsettings
 
-# Build
+# Build artifacts and compiled files
 build/
 DerivedData/
 *.app
 *.dSYM
-.build/
+*.framework
+*.dylib
+*.a
+*.o
+*.swiftmodule
+*.swiftdoc
+*.swiftsourceinfo
 
 # Swift Package Manager
+.build/
 .swiftpm/
 Package.resolved
+*.xcodeproj
+.swiftpm/
 
-# macOS
+# macOS system files
 .DS_Store
 .AppleDouble
 .LSOverride
+._*
+.Spotlight-V100
+.Trashes
 
-# Release builds
+# Release builds and distributions
 *.zip
 DesmosMenubarApp-*.zip
+*.dmg
+*.pkg
 
-# Logs
+# Logs and temporary files
 *.log
+*.tmp
 /tmp/
+*.swp
+*~.nib
+*.swo
 
-# User defaults (for testing)
+# User data and cache
+*.plist
+!Info.plist
 defaults.plist
+UserDefaults.plist
+*.cache
+*.local
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# Environment and secrets
+.env
+.env.local
+*.pem
+*.key
+*.cert
+secrets.json
+config.local.json
+
+# Testing
+.coverage
+.nyc_output
+test-results/
+
+# Backup files
+*.backup
+*.bak
+*~
